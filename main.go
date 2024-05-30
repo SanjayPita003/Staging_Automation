@@ -42,9 +42,16 @@ var params = Parameters{
 	Port:                   "11100",
 	Ctcws:                  "37.73",
 	Tma:                    "21.6",
-	RemoteHost:             "phwks02",
+	RemoteHost1:            "root",
+	RemoteHost2:		"Prodcw.user1"
+	RemoteHost3:		"RC.MGR"
+	RemoteHost4:		"RC.XFER"
+	RemoteHost5:		"train.trning"
+	RemoteHost6:		"super.lh"
 	RemotePort:             "22",
-	RemoteUser:             "psccqa",
+	RemoteUser1:            "cwha1",
+	RemoteUser2:		"Phlwks04"
+	RemoteUser3:		"DEV3"
 }
 
 const additionalShellScript = `
